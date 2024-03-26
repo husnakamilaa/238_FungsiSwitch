@@ -69,6 +69,9 @@ int main()
 				inputData();
 				cout << "Hasil pembagian = " << pembagian(bilangan1, bilangan2) << endl;
 				break;
+			case 5:
+				break;
+
 		}
 	}
 }
