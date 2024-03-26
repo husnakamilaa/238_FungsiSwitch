@@ -29,7 +29,7 @@ int perkalian(int a, int b)
 	return a * b;
 }
 
-float pembagian(int a, int b)
+float pembagian(float a, float b)
 {
 	return a / b;
 }
@@ -75,6 +75,9 @@ int main()
 			default:
 				cout << "Pilihan tidak ada." << endl;
 				break;
+
 		}
-	}
+		system("Pause");
+		system("CLS");
+	} while (pilihan != 5);
 }
